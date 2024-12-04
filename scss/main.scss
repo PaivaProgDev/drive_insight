@@ -1,0 +1,102 @@
+@import './variables.scss';
+@import './media_queries.scss';
+@import './cards.scss';
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   cursor: default;
+}
+
+body {
+   font-family: Outfit, 'sans-serif';
+}
+
+.container {
+   width: 100%;
+
+   .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 80rem;
+      max-width: 100%;
+      margin: auto;
+      padding: 0 5rem 0 5rem;
+
+      .top-header {
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         padding-top: 2rem;
+
+         .search-bar {
+            width: 100%;
+            max-width: 20rem;
+            display: flex;
+            gap: 10px;
+            border: solid 1px rgba(0, 0, 0, 0.253);
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.144);
+
+            .search-icon {
+               font-size: clamp(.2rem, 5vw, 1.1rem);
+               color: white;
+               border-radius: 50px;
+               padding: 5px;
+               background-color: $primary-color
+            }
+
+            .input-field {
+               background-color: transparent;
+               border: 0;
+               outline: 0;
+               font-family: Outfit;
+               font-weight: 400;
+               color: $terciary-color;
+               letter-spacing: .5px;
+               width: 100%;
+
+
+               &::placeholder {
+                  font-size: clamp(.6rem, 2vw, .85rem);
+                  letter-spacing: .5px;
+               }
+            }
+         }
+      }
+
+      .brand-types {
+         display: flex;
+         justify-content: center;
+         gap: 1.5rem;
+         margin: 3rem 0 2rem 0;
+
+         li {
+            font-size: clamp(.1rem, 2vw, 1.1rem);
+            color: $primary-color;
+            font-family: 'Open Sans';
+            font-weight: 500;
+         }
+      }
+   }
+
+   .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: $primary-color;
+      padding: .5rem;
+      color: #fff;
+      text-align: center;
+      letter-spacing: .6px;
+      font-weight: 300;
+   }
+}

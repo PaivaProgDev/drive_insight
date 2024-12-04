@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@media screen and (max-width: 633px) {
+  .brand-types {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0 !important;
+  }
+  .brand-types li {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card-list {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .content {
+    padding: 0.6rem !important;
+  }
+}
+@media screen and (max-width: 266px) {
+  .brand-types {
+    gap: 1rem !important;
+  }
+}
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 20rem));
+  justify-content: center;
+  place-items: center;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 18rem;
+  box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.144);
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+.card .card-body .origin {
+  font-size: 0.85rem;
+  color: #525151;
+  font-weight: 500;
+}
+.card .card-body .price {
+  color: #525151;
+  font-weight: 600;
+}
+.card .card-body .info-text {
+  color: #525151;
+  font-size: 0.79rem;
+}
+.card .card-body .separator-line {
+  border-top: 1px solid rgba(128, 128, 128, 0.404);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.card .card-body .color-title {
+  color: #404F64;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.card .card-body .color-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card .card-body .color-list .color {
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 150ms ease-in-out;
+}
+.card .card-body .color-list .color:hover {
+  transform: skew(15deg);
+}
+.card .card-body .color-list .black-color {
+  background-color: #2E2E2E;
+}
+.card .card-body .color-list .gray-color {
+  background-color: gray;
+}
+.card .card-body .color-list .white-color {
+  background-color: #f7f7f7;
+  border: solid 1px rgba(104, 104, 104, 0.589);
+}
+.card .car-image {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  aspect-ratio: 16/10;
+}
+.card .car-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .car-details .logo-image {
+  width: 20px;
+}
+.card .car-details .brand-name-car {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #2E2E2E;
+}
+.card .car-details .brand-name-car h1 {
+  font-size: 1.2rem;
+  color: #404F64;
+}
+.card .car-details .brand-name-car h2 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.ionicon {
+  width: 25px;
+}
+.ionicon .loved-icon {
+  fill: transparent;
+  stroke: #CF3E3E;
+  stroke-width: 30px;
+  transition: 150ms ease-in-out;
+  cursor: pointer;
+}
+.ionicon .loved-icon.liked {
+  fill: #CF3E3E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  cursor: default;
+}
+
+body {
+  font-family: Outfit, "sans-serif";
+}
+
+.container {
+  width: 100%;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80rem;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 5rem 0 5rem;
+}
+.container .content .top-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+.container .content .top-header .search-bar {
+  width: 100%;
+  max-width: 20rem;
+  display: flex;
+  gap: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.253);
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.144);
+}
+.container .content .top-header .search-bar .search-icon {
+  font-size: clamp(0.2rem, 5vw, 1.1rem);
+  color: white;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: #404F64;
+}
+.container .content .top-header .search-bar .input-field {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-family: Outfit;
+  font-weight: 400;
+  color: #2E2E2E;
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+.container .content .top-header .search-bar .input-field::placeholder {
+  font-size: clamp(0.6rem, 2vw, 0.85rem);
+  letter-spacing: 0.5px;
+}
+.container .content .brand-types {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem 0 2rem 0;
+}
+.container .content .brand-types li {
+  font-size: clamp(0.1rem, 2vw, 1.1rem);
+  color: #404F64;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+.container .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #404F64;
+  padding: 0.5rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.6px;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=main.css.map */

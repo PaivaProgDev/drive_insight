@@ -1,0 +1,29 @@
+@media screen and (max-width: 633px) {
+   .brand-types {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 0 !important;
+
+      li {
+         font-size: 1rem !important;
+      }
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .card-list {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center;
+   }
+
+   .content {
+      padding: .6rem !important;
+   }
+}
+
+@media screen and (max-width: 266px) {
+   .brand-types {
+      gap: 1rem !important;
+   }
+}
