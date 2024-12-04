@@ -4,7 +4,7 @@
 
 ### ✏️ O Drive Insight, foi pensado, planejado e desenvolvido para os amantes de carros modernos ou esportivos! 
 
-- ✅ Objetivo: Informar ao usuário sobre tal veículo. O mesmo terá uma experiência completa com os mais diversos tipos de carros, tanto sedan, como suvs, e etc..
+- ✅ Objetivo: Informar ao usuário sobre tal veículo. O mesmo terá uma experiência completa com os mais diversos tipos de carros, tanto Sedans, como SUV'S, e etc..
 
 - ✅ Diversidades: Estão disponíveis três cores de carros, Preto, Cinza e Branco.
 
