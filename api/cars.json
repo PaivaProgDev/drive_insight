@@ -5,289 +5,255 @@
       "name":"ZR-V",
       "brand":"Honda",
       "origin": "japonesa",
+      "model": "SUV",
       "logo": "./assets/brand_image/honda.webp",
       "images":[
         {"black":"./assets/cars_image/honda/zrv/black.webp"},
         {"gray":"./assets/cars_image/honda/zrv/gray.webp"},
         {"white":"./assets/cars_image/honda/zrv/white.webp"}
       ],
-      "prices":[
-        {"black":"265.200,00"},
-        {"gray":"235.840,00"},
-        {"white":"295.930,00"}
-      ]
+      "price": 
+        {"version":"201.500,00"}
    },
    {
      "id": 2,
      "name":"GT 63",
      "brand":"Mercedes",
      "origin": "alemã",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/mercedes.webp",
      "images":[
        {"black":"./assets/cars_image/mercedes/gt/black.webp"},
        {"gray":"./assets/cars_image/mercedes/gt/gray.webp"},
        {"white":"./assets/cars_image/mercedes/gt/white.webp"}
      ],
-     "prices":[
-       {"black":"170.900,00"},
-       {"gray":"187.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"1.650.000,00"}
    },
    {
      "id": 3,
      "name":"x1",
      "brand":"BMW",
      "origin": "alemã",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/bmw.webp",
      "images":[
        {"black":"./assets/cars_image/bmw/x1/black.webp"},
        {"gray":"./assets/cars_image/bmw/x1/gray.webp"},
        {"white":"./assets/cars_image/bmw/x1/white.webp"}
      ],
-     "prices":[
-       {"black":"189.900,00"},
-       {"gray":"197.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"354.950,00"}
    },
    {
      "id": 4,
      "name":"Q9",
      "brand":"Audi",
      "origin": "alemã",
+     "model": "SUV",
      "logo": "./assets/brand_image/audi.webp",
      "images":[
        {"black":"./assets/cars_image/audi/q9/black.webp"},
        {"gray":"./assets/cars_image/audi/q9/gray.webp"},
        {"white":"./assets/cars_image/audi/q9/white.webp"}
      ],
-     "prices":[
-       {"black":"789.900,00"},
-       {"gray":"797.440,00"},
-       {"white":"789.230,00"}
-     ]
+     "price": 
+        {"version":"1.193.990,00"}
    },
    {
      "id": 5,
      "name":"Creta",
      "brand":"Hyundai",
      "origin": "coreana",
+     "model": "SUV",
      "logo": "./assets/brand_image/hyundai.webp",
      "images":[
        {"black":"./assets/cars_image/hyundai/creta/black.webp"},
        {"gray":"./assets/cars_image/hyundai/creta/gray.webp"},
        {"white":"./assets/cars_image/hyundai/creta/white.webp"}
      ],
-     "prices":[
-       {"black":"370.900,00"},
-       {"gray":"387.440,00"},
-       {"white":"389.230,00"}
-     ]
+     "price": 
+        {"version":"189.990,00"}
    },
     {
       "id": 6,
       "name":"CR-V",
       "brand":"Honda",
       "origin": "japonesa",
+      "model": "SUV",
       "logo": "./assets/brand_image/honda.webp",
       "images":[
         {"black":"./assets/cars_image/honda/crv/black.webp"},
         {"gray":"./assets/cars_image/honda/crv/gray.webp"},
         {"white":"./assets/cars_image/honda/crv/white.webp"}
       ],
-      "prices":[
-         {"black":"165.200,00"},
-         {"gray":"180.840,00"},
-         {"white":"199.930,00"}
-      ]
+      "price": 
+        {"version":"352.900,00"}
    },
    {
      "id": 7,
      "name":"Discovery",
      "brand":"Land R.",
      "origin": "britanica",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/land_rover.webp",
      "images":[
        {"black":"./assets/cars_image/land_rover/discovery/black.webp"},
        {"gray":"./assets/cars_image/land_rover/discovery/gray.webp"},
        {"white":"./assets/cars_image/land_rover/discovery/white.webp"}
      ],
-     "prices":[
-       {"black":"389.900,00"},
-       {"gray":"497.440,00"},
-       {"white":"489.230,00"}
-     ]
+     "price": 
+        {"version":"759.300,00"}
    },
    {
      "id": 8,
      "name":"Corolla",
      "brand":"Toyota",
      "origin": "japonesa",
+     "model": "Altis Hybrid",
      "logo": "./assets/brand_image/toyota.webp",
      "images":[
        {"black":"./assets/cars_image/toyota/corolla/black.webp"},
        {"gray":"./assets/cars_image/toyota/corolla/gray.webp"},
        {"white":"./assets/cars_image/toyota/corolla/white.webp"}
      ],
-     "prices":[
-       {"black":"200.900,00"},
-       {"gray":"187.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"198.890,00"}
    },
    {
      "id": 9,
      "name":"CLE 53",
      "brand":"Mercedes",
      "origin": "alemã",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/mercedes.webp",
      "images":[
        {"black":"./assets/cars_image/mercedes/cle/black.webp"},
        {"gray":"./assets/cars_image/mercedes/cle/gray.webp"},
        {"white":"./assets/cars_image/mercedes/cle/white.webp"}
      ],
-     "prices":[
-       {"black":"170.900,00"},
-       {"gray":"187.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"738.726,72"}
    },
    {
      "id": 10,
      "name":"320i",
      "brand":"BMW",
      "origin": "alemã",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/bmw.webp",
      "images":[
        {"black":"./assets/cars_image/bmw/320i/black.webp"},
        {"gray":"./assets/cars_image/bmw/320i/gray.webp"},
        {"white":"./assets/cars_image/bmw/320i/white.webp"}
      ],
-     "prices":[
-       {"black":"189.900,00"},
-       {"gray":"197.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"332.950,00"}
    },
    {
      "id": 11,
      "name":"Range Rover",
      "brand":"Land R.",
      "origin": "britanica",
+     "model": "SUV",
      "logo": "./assets/brand_image/land_rover.webp",
      "images":[
        {"black":"./assets/cars_image/land_rover/range_rover/black.webp"},
        {"gray":"./assets/cars_image/land_rover/range_rover/gray.webp"},
        {"white":"./assets/cars_image/land_rover/range_rover/white.webp"}
      ],
-     "prices":[
-       {"black":"189.900,00"},
-       {"gray":"197.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"1.776.000"}
    },
    {
       "id": 12,
       "name":"HR-V",
       "brand":"Honda",
       "origin": "japonesa",
+      "model": "SUV",
       "logo": "./assets/brand_image/honda.webp",
       "images":[
         {"black":"./assets/cars_image/honda/hrv/black.webp"},
         {"gray":"./assets/cars_image/honda/hrv/gray.webp"},
         {"white":"./assets/cars_image/honda/hrv/white.webp"}
       ],
-      "prices":[
-        {"black":"265.100,00"},
-        {"gray":"230.849,00"},
-        {"white":"195.940,00"}
-      ]
+      "price": 
+        {"version":"201.500,00"}
    },
    {
      "id": 13,
      "name":"Cross",
      "brand":"Toyota",
      "origin": "japonesa",
+     "model": "SUV",
      "logo": "./assets/brand_image/toyota.webp",
      "images":[
        {"black":"./assets/cars_image/toyota/cross/black.webp"},
        {"gray":"./assets/cars_image/toyota/cross/gray.webp"},
        {"white":"./assets/cars_image/toyota/cross/white.webp"}
      ],
-     "prices":[
-       {"black":"270.900,00"},
-       {"gray":"287.440,00"},
-       {"white":"289.230,00"}
-     ]
+     "price": 
+        {"version":"210.990,00"}
    },
    {
      "id": 14,
      "name":"GLE 63",
      "brand":"Mercedes",
      "origin": "alemã",
+     "model": "SUV",
      "logo": "./assets/brand_image/mercedes.webp",
      "images":[
        {"black":"./assets/cars_image/mercedes/gle/black.webp"},
        {"gray":"./assets/cars_image/mercedes/gle/gray.webp"},
        {"white":"./assets/cars_image/mercedes/gle/white.webp"}
      ],
-     "prices":[
-       {"black":"170.900,00"},
-       {"gray":"187.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"559.900,00"}
    },
    {
      "id": 15,
      "name":"Tucson",
      "brand":"Hyundai",
      "origin": "coreana",
+     "model": "SUV",
      "logo": "./assets/brand_image/hyundai.webp",
      "images":[
        {"black":"./assets/cars_image/hyundai/tucson/black.webp"},
        {"gray":"./assets/cars_image/hyundai/tucson/gray.webp"},
        {"white":"./assets/cars_image/hyundai/tucson/white.webp"}
      ],
-     "prices":[
-       {"black":"170.900,00"},
-       {"gray":"187.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"189.990,00"}
    },
    {
      "id": 16,
      "name":"R8",
      "brand":"Audi",
      "origin": "alemã",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/audi.webp",
      "images":[
        {"black":"./assets/cars_image/audi/r8/black.webp"},
        {"gray":"./assets/cars_image/audi/r8/gray.webp"},
        {"white":"./assets/cars_image/audi/r8/white.webp"}
      ],
-     "prices":[
-       {"black":"989.900,00"},
-       {"gray":"1397.440,00"},
-       {"white":"999.230,00"}
-     ]
+     "price": 
+        {"version":"3.500.000"}
    },
    {
      "id": 17,
      "name":"Defender",
      "brand":"Land R.",
      "origin": "britanica",
+     "model": "SUV",
      "logo": "./assets/brand_image/land_rover.webp",
      "images":[
        {"black":"./assets/cars_image/land_rover/defender/black.webp"},
        {"gray":"./assets/cars_image/land_rover/defender/gray.webp"},
        {"white":"./assets/cars_image/land_rover/defender/white.webp"}
      ],
-     "prices":[
-       {"black":"389.900,00"},
-       {"gray":"592.440,00"},
-       {"white":"589.230,00"}
-     ]
+     "price": 
+        {"version":"760.000,00"}
     },
     {
       "id": 18,
@@ -295,33 +261,29 @@
       "brand":"Honda",
       "origin": "japonesa",
       "logo": "./assets/brand_image/honda.webp",
+      "model": "Sedãn",
       "images":[
         {"black":"./assets/cars_image/honda/city/black.webp"},
         {"gray":"./assets/cars_image/honda/city/gray.webp"},
         {"white":"./assets/cars_image/honda/city/white.webp"}
       ],
-      "prices":[
-        {"black":"116.300,00"},
-        {"gray":"113.830,00"},
-        {"white":"1423.230,00"}
-      ]
+      "price": 
+        {"version":"142.400,00"}
     },
     {
      "id": 19,
      "name":"GLC 63",
      "brand":"Mercedes",
      "origin": "alemã",
+     "model": "SUV",
      "logo": "./assets/brand_image/mercedes.webp",
      "images":[
        {"black":"./assets/cars_image/mercedes/glc/black.webp"},
        {"gray":"./assets/cars_image/mercedes/glc/gray.webp"},
        {"white":"./assets/cars_image/mercedes/glc/white.webp"}
      ],
-     "prices":[
-       {"black":"370.900,00"},
-       {"gray":"487.440,00"},
-       {"white":"389.230,00"}
-     ]
+     "price": 
+        {"version":"799.890,00"}
    },
    
     {
@@ -329,136 +291,120 @@
      "name":"Elantra",
      "brand":"Hyundai",
      "origin": "coreana",
+     "model": "Sedãn",
      "logo": "./assets/brand_image/hyundai.webp",
      "images":[
        {"black":"./assets/cars_image/hyundai/elantra/black.webp"},
        {"gray":"./assets/cars_image/hyundai/elantra/gray.webp"},
        {"white":"./assets/cars_image/hyundai/elantra/white.webp"}
      ],
-     "prices":[
-       {"black":"370.900,00"},
-       {"gray":"387.440,00"},
-       {"white":"389.230,00"}
-     ]
+     "price": 
+        {"version":"160.000,00"}
    },
    {
      "id": 21,
      "name":"x6",
      "brand":"BMW",
      "origin": "alemã",
+     "model": "SUV",
      "logo": "./assets/brand_image/bmw.webp",
      "images":[
        {"black":"./assets/cars_image/bmw/x6/black.webp"},
        {"gray":"./assets/cars_image/bmw/x6/gray.webp"},
        {"white":"./assets/cars_image/bmw/x6/white.webp"}
      ],
-     "prices":[
-       {"black":"489.900,00"},
-       {"gray":"497.440,00"},
-       {"white":"489.230,00"}
-     ]
+     "price": 
+        {"version":"1.250.950,00"}
    },
    {
      "id": 22,
      "name":"SW4",
      "brand":"Toyota",
      "origin": "japonesa",
+     "model": "SUV",
      "logo": "./assets/brand_image/toyota.webp",
      "images":[
        {"black":"./assets/cars_image/toyota/sw4/black.webp"},
        {"gray":"./assets/cars_image/toyota/sw4/gray.webp"},
        {"white":"./assets/cars_image/toyota/sw4/white.webp"}
      ],
-     "prices":[
-       {"black":"370.900,00"},
-       {"gray":"387.440,00"},
-       {"white":"389.230,00"}
-     ]
+     "price": 
+        {"version":"447.590,00"}
    },
     {
      "id": 23,
      "name":"Sonata",
      "brand":"Hyundai",
      "origin": "coreana",
+     "model": "Esportivo",
      "logo": "./assets/brand_image/hyundai.webp",
      "images":[
        {"black":"./assets/cars_image/hyundai/sonata/black.webp"},
        {"gray":"./assets/cars_image/hyundai/sonata/gray.webp"},
        {"white":"./assets/cars_image/hyundai/sonata/white.webp"}
      ],
-     "prices":[
-       {"black":"270.900,00"},
-       {"gray":"287.440,00"},
-       {"white":"289.230,00"}
-     ]
+     "price": 
+        {"version":"170.000,00"}
    },
    {
      "id": 24,
      "name":"Camry",
      "brand":"Toyota",
      "origin": "japonesa",
+     "model": "Sedãn",
      "logo": "./assets/brand_image/toyota.webp",
      "images":[
        {"black":"./assets/cars_image/toyota/camry/black.webp"},
        {"gray":"./assets/cars_image/toyota/camry/gray.webp"},
        {"white":"./assets/cars_image/toyota/camry/white.webp"}
      ],
-     "prices":[
-       {"black":"189.900,00"},
-       {"gray":"197.440,00"},
-       {"white":"189.230,00"}
-     ]
+     "price": 
+        {"version":"336.900,00"}
    },
    {
      "id": 25,
      "name":"Evoque",
      "brand":"Land R.",
      "origin": "britanica",
+     "model": "SUV",
      "logo": "./assets/brand_image/land_rover.webp",
      "images":[
        {"black":"./assets/cars_image/land_rover/evoque/black.webp"},
        {"gray":"./assets/cars_image/land_rover/evoque/gray.webp"},
        {"white":"./assets/cars_image/land_rover/evoque/white.webp"}
      ],
-     "prices":[
-       {"black":"489.900,00"},
-       {"gray":"497.440,00"},
-       {"white":"489.230,00"}
-     ]
+     "price": 
+        {"version":"459.990,00"}
    },
    {
      "id": 26,
      "name":"i5",
      "brand":"BMW",
      "origin": "alemã",
+     "model": "Sedãn",
      "logo": "./assets/brand_image/bmw.webp",
      "images":[
        {"black":"./assets/cars_image/bmw/i5/black.webp"},
        {"gray":"./assets/cars_image/bmw/i5/gray.webp"},
        {"white":"./assets/cars_image/bmw/i5/white.webp"}
      ],
-     "prices":[
-       {"black":"689.900,00"},
-       {"gray":"697.440,00"},
-       {"white":"689.230,00"}
-     ]
+     "price": 
+        {"version":"764.950,00"}
    },
    {
      "id": 27,
      "name":"A4",
      "brand":"Audi",
      "origin": "alemã",
+     "model": "Sedãn",
      "logo": "./assets/brand_image/audi.webp",
      "images":[
        {"black":"./assets/cars_image/audi/a4/black.webp"},
        {"gray":"./assets/cars_image/audi/a4/gray.webp"},
        {"white":"./assets/cars_image/audi/a4/white.webp"}
      ],
-     "prices":[
-       {"black":"789.900,00"},
-       {"gray":"797.440,00"},
-       {"white":"789.230,00"}
-     ]
+     "price": 
+        {"version":"360,755,00"}
    }
   ]
 }

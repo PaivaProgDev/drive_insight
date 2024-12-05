@@ -13,7 +13,7 @@ const getCars = () => {
       .then(data => {
          data.brands.forEach(car => {
             listCars.push(car);
-            cardGenerate(car.id, car.name, car.brand, car.images, car.prices, car.origin, car.logo);
+            cardGenerate(car.id, car.name, car.brand, car.images, car.price, car.origin, car.logo, car.model);
          });
       });
 };
@@ -23,7 +23,7 @@ const codeGenerator = () => {
    return Math.random().toString(36).substring(2, 9);
 };
 
-const cardGenerate = (id, name, brand, img, price, origin, logo) => {
+const cardGenerate = (id, name, brand, img, price, origin, logo, model) => {
    // CRIA UM NOVO CARD
    const newCar = document.createElement('li');
    newCar.className = 'card';
@@ -35,7 +35,7 @@ const cardGenerate = (id, name, brand, img, price, origin, logo) => {
          <div class="card-body">
             <div class="car-details">
                <div class="brand-name-car">
-                  <h1>${name}</h1>
+                  <h1 class="car-name">${name}</h1>
                   <span>|</span>
                   <h2>${brand}</h2>
                   <img class="logo-image" src="${logo}">
@@ -48,8 +48,12 @@ const cardGenerate = (id, name, brand, img, price, origin, logo) => {
                   </path>
                </svg>
             </div>
-            <span class="origin">Origem ${origin}</span>
-            <span class="price" id="price-${id}">${price[0].black}</span>
+            <div>
+               <span class="model">Modelo ${model}</span>
+               <span>|</span>
+               <span class="origin">Origem ${origin}</span>
+            </div>
+            <span class="price" id="price-${id}">R$ ${price.version}</span>
             <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, autem?</p>
             <hr class="separator-line">
             <h3 class="color-title">Cores</h3>
@@ -74,13 +78,6 @@ const getCarsIndex = (carId, color) => {
    // ATUALIZA A IMAGEM DO CARD
    const image = document.getElementById(`image-${carId}`);
    image.src = selectedImage[color];
-
-   // ENCONTRA OS PREÇOS NO ARRAY
-   const selectedPrice = selectedCar.prices.find(price => price[color]);
-
-   // ATUALIZA OS PREÇOS DO CARD
-   const price = document.getElementById(`price-${carId}`);
-   price.innerHTML = selectedPrice[color];
 };
 
 const searchCar = () => {

@@ -47,14 +47,23 @@
   gap: 10px;
   padding: 0.5rem 1rem 1rem 1rem;
 }
+.card .card-body .model {
+  font-size: 0.9rem;
+  color: #525151;
+  font-weight: 500;
+}
 .card .card-body .origin {
   font-size: 0.85rem;
   color: #525151;
-  font-weight: 500;
 }
 .card .card-body .price {
   color: #525151;
   font-weight: 600;
+}
+.card .card-body details summary {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
 }
 .card .card-body .info-text {
   color: #525151;
@@ -115,9 +124,9 @@
   gap: 5px;
   color: #2E2E2E;
 }
-.card .car-details .brand-name-car h1 {
+.card .car-details .brand-name-car .car-name {
   font-size: 1.2rem;
-  color: #404F64;
+  color: #2E2E2E;
 }
 .card .car-details .brand-name-car h2 {
   font-size: 0.9rem;

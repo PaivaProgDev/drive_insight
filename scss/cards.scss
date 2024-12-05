@@ -22,15 +22,30 @@
       gap: 10px;
       padding: .5rem 1rem 1rem 1rem;
 
+      .model {
+         font-size: .9rem;
+         color: $secondary-color;
+         font-weight: 500;
+      }
+
       .origin {
          font-size: .85rem;
          color: $secondary-color;
-         font-weight: 500;
       }
 
       .price {
          color: $secondary-color;
          font-weight: 600;
+      }
+
+      details {
+
+
+         summary {
+            display: flex;
+            align-items: center;
+            gap: .2rem;
+         }
       }
 
       .info-text {
@@ -104,9 +119,9 @@
          gap: 5px;
          color: $terciary-color;
 
-         h1 {
+         .car-name {
             font-size: 1.2rem;
-            color: $primary-color;
+            color: $terciary-color;
          }
 
          h2 {
