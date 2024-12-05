@@ -14,7 +14,57 @@
 }
 
 body {
-   font-family: Outfit, 'sans-serif';
+   font-family: Outfit, 'Open Sans';
+   overflow: hidden;
+}
+
+.modal-bg {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   background-color: #444444ec;
+   width: 100%;
+   z-index: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 150ms ease-in-out;
+
+   &.disabled {
+      opacity: 0;
+      visibility: hidden;
+   }
+
+   .modal {
+      background-color: $terciary-color;
+      width: 100%;
+      max-width: 23rem;
+      padding: 1.5rem;
+      color: #fff;
+      border-radius: .7rem;
+
+      .modal-header {
+         display: flex;
+         align-items: center;
+         gap: .7rem;
+         margin-bottom: 1rem;
+
+         .info-icon-modal {
+            font-size: 1.7rem;
+         }
+
+         .attention {
+            font-weight: 400;
+            font-size: 1.3rem;
+            color: rgb(255, 255, 0);
+         }
+      }
+
+      .modal-text-message {
+         font-weight: 300;
+         line-height: 1.3rem;
+      }
+   }
 }
 
 .container {
@@ -58,7 +108,7 @@ body {
                background-color: transparent;
                border: 0;
                outline: 0;
-               font-family: Outfit;
+               font-family: Outfit, 'Open Sans';
                font-weight: 400;
                color: $terciary-color;
                letter-spacing: .5px;
@@ -82,8 +132,8 @@ body {
          li {
             font-size: clamp(.1rem, 2vw, 1.1rem);
             color: $primary-color;
-            font-family: 'Open Sans';
-            font-weight: 500;
+            font-family: Outfit, 'Open Sans';
+            font-weight: 400;
          }
       }
    }

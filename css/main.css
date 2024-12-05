@@ -68,6 +68,7 @@
 .card .card-body .info-text {
   color: #525151;
   font-size: 0.79rem;
+  margin-top: 1rem;
 }
 .card .card-body .separator-line {
   border-top: 1px solid rgba(128, 128, 128, 0.404);
@@ -157,7 +158,51 @@
 }
 
 body {
-  font-family: Outfit, "sans-serif";
+  font-family: Outfit, "Open Sans";
+  overflow: hidden;
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(68, 68, 68, 0.9254901961);
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 150ms ease-in-out;
+}
+.modal-bg.disabled {
+  opacity: 0;
+  visibility: hidden;
+}
+.modal-bg .modal {
+  background-color: #2E2E2E;
+  width: 100%;
+  max-width: 23rem;
+  padding: 1.5rem;
+  color: #fff;
+  border-radius: 0.7rem;
+}
+.modal-bg .modal .modal-header {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+.modal-bg .modal .modal-header .info-icon-modal {
+  font-size: 1.7rem;
+}
+.modal-bg .modal .modal-header .attention {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 0);
+}
+.modal-bg .modal .modal-text-message {
+  font-weight: 300;
+  line-height: 1.3rem;
 }
 
 .container {
@@ -199,7 +244,7 @@ body {
   background-color: transparent;
   border: 0;
   outline: 0;
-  font-family: Outfit;
+  font-family: Outfit, "Open Sans";
   font-weight: 400;
   color: #2E2E2E;
   letter-spacing: 0.5px;
@@ -218,8 +263,8 @@ body {
 .container .content .brand-types li {
   font-size: clamp(0.1rem, 2vw, 1.1rem);
   color: #404F64;
-  font-family: "Open Sans";
-  font-weight: 500;
+  font-family: Outfit, "Open Sans";
+  font-weight: 400;
 }
 .container .footer {
   position: fixed;

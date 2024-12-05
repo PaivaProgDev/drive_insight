@@ -1,10 +1,43 @@
 const inputField = document.querySelector('.input-field');
 const list = document.querySelector('.card-list');
-const loaderBg = document.querySelector('.loader-bg');
 let lovedCar = '';
 
-// LISTA DE CARROS
 let listCars = [];
+
+document.addEventListener('DOMContentLoaded', () => {
+   getLocal();
+});
+
+// LISTA DE CARROS
+
+const savedLocal = () => {
+   // UMA VEZ DESATIVADO O MODAL, SÓ SERÁ ABERTO QUANDO LIMPAR O CACHE DO NAVEGADOR
+   const modal = document.querySelector('.modal-bg');
+   const body = document.querySelector('body');
+
+   localStorage.setItem('modal', modal.classList.contains('disabled') ? 'disabled' : '');
+   localStorage.setItem('body', body.style.overflow = 'hidden' ? 'auto' : '');
+};
+
+const getLocal = () => {
+   // FORÇA O NÃO CARREGAMENTO NOVAMENTE DO MODAL INICIAL
+   const modal = document.querySelector('.modal-bg');
+   const body = document.querySelector('body');
+
+   const disabledModal = localStorage.getItem('modal');
+   const disabledOverflow = localStorage.getItem('body');
+
+   if (disabledModal) {
+      modal.style.display = 'none';
+      modal.classList.add(disabledModal);
+      savedLocal();
+   }
+
+   if (disabledOverflow) {
+      body.style.overflow = disabledOverflow;
+      savedLocal();
+   }
+};
 
 // FAZ A REQUISIÇÃO
 const getCars = () => {
@@ -94,7 +127,7 @@ const searchCar = () => {
       // GERA OS CARDS DE ACORDO COM A PESQUISA
       if (carName.includes(entry) || carBrand.includes(entry)) {
          filteredData.push(car);
-         cardGenerate(car.id, car.name, car.brand, car.images, car.prices, car.origin, car.logo);
+         cardGenerate(car.id, car.name, car.brand, car.images, car.price, car.origin, car.logo);
       }
    });
 
@@ -107,6 +140,17 @@ const searchCar = () => {
 };
 
 inputField.addEventListener('input', searchCar);
+
+document.addEventListener('click', (e) => {
+   // VERIFICA SE O ELEMENTO QUE TEVE O CLICK TEM A MODAL-BG
+   if (e.target.classList.contains('modal-bg')) {
+      // DESATIVA O MODAL
+      e.target.classList.add('disabled');
+
+      savedLocal();
+   }
+
+});
 
 document.addEventListener('click', (e) => {
    // VERIFICA SE O ELEMENTO QUE TEVE O CLICK TEM A CLASSE LOVED-ICON
