@@ -185,6 +185,7 @@ body {
   padding: 1.5rem;
   color: #fff;
   border-radius: 0.7rem;
+  margin: 0 0.6rem 0 0.6rem;
 }
 .modal-bg .modal .modal-header {
   display: flex;
